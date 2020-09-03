@@ -1,3 +1,5 @@
+package thread.creation.part1;
+
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
@@ -53,6 +55,8 @@ public class Main {
         public void run() {
             // Code that executes on the new thread
             System.out.println("Hello from " + Thread.currentThread().getName());
+            // instead of Thread.currentThread(), we can use this.getName()
+            // that's the advantage of this technique: direct access to Thread's methods
         }
     }
 }
