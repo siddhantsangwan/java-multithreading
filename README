@@ -1,1 +1,1 @@
-These are my codes for the java multithreading course by Michael Pogrebinsky
+Multi threading concepts in java. Example programs optimising for latency, throughput(using thread pool) and reentrant locks.
